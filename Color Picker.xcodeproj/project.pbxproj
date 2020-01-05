@@ -192,16 +192,16 @@
 				TargetAttributes = {
 					335C82281BADD32500B3D782 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 					};
 					335C823C1BADD32500B3D782 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						TestTargetID = 335C82281BADD32500B3D782;
 					};
 					335C82471BADD32500B3D782 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						TestTargetID = 335C82281BADD32500B3D782;
 					};
 				};
@@ -211,6 +211,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -409,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -422,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -435,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-PickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Picker.app/Color Picker";
 			};
 			name = Debug;
@@ -449,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-PickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Picker.app/Color Picker";
 			};
 			name = Release;
@@ -462,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-PickerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "Color Picker";
 				USES_XCTRUNNER = YES;
 			};
@@ -476,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-PickerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "Color Picker";
 				USES_XCTRUNNER = YES;
 			};
