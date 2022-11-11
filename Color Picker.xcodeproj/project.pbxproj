@@ -14,6 +14,7 @@
 		335C82371BADD32500B3D782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335C82351BADD32500B3D782 /* LaunchScreen.storyboard */; };
 		335C82421BADD32500B3D782 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C82411BADD32500B3D782 /* Color_PickerTests.swift */; };
 		335C824D1BADD32500B3D782 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C824C1BADD32500B3D782 /* Color_PickerUITests.swift */; };
+		D9B91D57291E50AF00B1A427 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B91D56291E50AF00B1A427 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		335C82481BADD32500B3D782 /* Color PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		335C824C1BADD32500B3D782 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		335C824E1BADD32500B3D782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B91D56291E50AF00B1A427 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				335C822C1BADD32500B3D782 /* AppDelegate.swift */,
 				335C822E1BADD32500B3D782 /* ViewController.swift */,
 				335C82301BADD32500B3D782 /* Main.storyboard */,
+				D9B91D56291E50AF00B1A427 /* SwiftUIView.swift */,
 				335C82331BADD32500B3D782 /* Assets.xcassets */,
 				335C82351BADD32500B3D782 /* LaunchScreen.storyboard */,
 				335C82381BADD32500B3D782 /* Info.plist */,
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = sarcrates;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					335C82281BADD32500B3D782 = {
 						CreatedOnToolsVersion = 7.0;
@@ -208,10 +211,9 @@
 			};
 			buildConfigurationList = 335C82241BADD32500B3D782 /* Build configuration list for PBXProject "Color Picker" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -261,6 +263,7 @@
 			files = (
 				335C822F1BADD32500B3D782 /* ViewController.swift in Sources */,
 				335C822D1BADD32500B3D782 /* AppDelegate.swift in Sources */,
+				D9B91D57291E50AF00B1A427 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Color Picker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Color Picker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.null.sarcrates.Color-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
