@@ -30,6 +30,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        RedSlider.value = 0
+        GreenSlider.value = 0
+        BlueSlider.value = 0
         // Do any additional setup after loading the view, typically from a nib.
     }
 
