@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var BlueLabel: UILabel!
     @IBOutlet weak var ColorLabel: UILabel!
     
+    @IBOutlet weak var combinedRGBLabel: UILabel!
+    
     @IBOutlet weak var ResetButton: UIButton!
     
     
@@ -33,6 +35,8 @@ class ViewController: UIViewController {
         RedSlider.value = 0
         GreenSlider.value = 0
         BlueSlider.value = 0
+        combinedRGBLabel.text = "0"
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -84,6 +88,8 @@ class ViewController: UIViewController {
         GreenLabel.text = "Green: \(RoundedGreen)"
         BlueLabel.text = "Blue: \(RoundedBlue)"
         
+        let combinedRGB = "RGB: \(RoundedRed), \(RoundedGreen), \(RoundedBlue)"
+        combinedRGBLabel.text = combinedRGB
         
     }
     
